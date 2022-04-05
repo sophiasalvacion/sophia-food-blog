@@ -1,0 +1,121 @@
+body{
+    background-image: url('grid.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.navbar{
+    background-color:#f8c2d4;
+}
+.navbar ul{
+    overflow:auto;
+    outline-style: solid;
+    outline-color: #eabec3;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin:13px 20px;
+    
+
+}
+.navbar li a{
+    padding:5px;
+    text-decoration: none;
+    color: #eb869c;
+    font-size: 48px;
+    font-family: 'Anybody', cursive;
+    
+    
+   
+}
+.navbar li a:hover{
+    background-color: #fdebf1;
+    opacity: 0.9;
+    color:#eabec3;
+    text-decoration: underline;
+    text-decoration-color: #eb869c;
+    text-decoration-style: double;
+    
+    
+}
+.navbar li a:active{
+    color:black;
+
+}
+/*Home*/
+h1 {
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align:center;
+    font-size:100px;
+    font-family: 'BIZ UDPMincho', serif;
+    margin: 0%;
+    padding: 0%;
+}
+.foodpics > img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    width: 100%;
+
+}
+/*Fav Food*/
+.foodheader{
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align:center;
+    font-size:50px;
+    font-family: 'BIZ UDPMincho', serif;
+}
+.foods{
+    padding: 20px 70px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+
+.foods > div > img{
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.description {
+    width: 250px;
+    color: #eb869c;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Anybody', cursive;
+}
+
+.title {
+    text-align: center;
+    text-shadow: px 4px 4px hotpink;
+    color: #eb869c;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Anybody', cursive;
+
+}
+.foodheader {
+    padding: 15px 40px;
+    text-decoration: underline;
+    text-decoration-color: #eb869c;
+    text-decoration-style: double;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.foodheader > div {
+    height: 50px;
+    margin-bottom: 1rem;
+    margin-top: 50px;
+}
